@@ -1,4 +1,8 @@
-window.onload = function() {
+document.addEventListener("DOMContentLoaded", function() {
+
+	// Ваш код
+
+
 
 let mainScreenTitle = document.querySelector('.section__main-screen__title-animation-before');
 mainScreenTitle.classList.add('section__main-screen__title-animation-after');
@@ -14,4 +18,4 @@ mainScreenBtn.classList.add('section_main__button-animation-after');
 
 console.log(123);
 
-}
+});
