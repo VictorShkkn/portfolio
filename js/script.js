@@ -9,3 +9,5 @@ mainScreenContact.classList.add('section__description-animation-after');
 
 let mainScreenBtn = document.querySelector('.section_main__button-animation-before')
 mainScreenBtn.classList.add('section_main__button-animation-after');
+
+console.log(123);
