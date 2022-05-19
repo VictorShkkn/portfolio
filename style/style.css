@@ -275,6 +275,31 @@ h1,h2,h3,h4,h5,h6, p {
     margin-left: -3px;
 }
 
+.section__main-screen__title-animation-before {
+    transform: translate(-100px, 0);
+    opacity: 0;
+}
+
+.section__description-animation-before,
+.section_main__contact-animation-before {
+    transform: translate(-130px, 0);
+    opacity: 0;
+}
+
+.section_main__button-animation-before {
+    transform: translate(-180px, 0);
+    opacity: 0;
+}
+
+.section__main-screen__title-animation-after,
+.section__description-animation-after,
+.section_main__contact-animation-after,
+.section_main__button-animation-after {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: all 1s;
+}
+
 @media (max-width: 930px) {
     .next-work {
         flex-direction: column;
