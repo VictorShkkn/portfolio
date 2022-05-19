@@ -2,7 +2,7 @@ function funonload() {
 
 	setTimeout(function(){
 			   myFunction();
-			},50)
+			},1150)
 
 
 
