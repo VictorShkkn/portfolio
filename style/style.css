@@ -239,6 +239,7 @@ h1,h2,h3,h4,h5,h6, p {
     margin-left: -4px;
 }
 
+
 .section-work__wrapper {
     margin-right: 20px;
 }
@@ -251,6 +252,10 @@ h1,h2,h3,h4,h5,h6, p {
 
 .represent-work__img {
     margin-top: 100px;
+    width: 100%;
+}
+
+.width-100 {
     width: 100%;
 }
 
